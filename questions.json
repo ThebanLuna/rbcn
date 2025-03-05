@@ -49,7 +49,7 @@
                     "Phương pháp giải tích khó giải, phương pháp số dễ thực hiện",
                     "Nghiệm của phương trình giải tích hoàn toàn chính xác, nghiệm của phương pháp số không chính xác"
                 ],
-                "correct_answer": "Nghiệm của phương trình giải tích hoàn toàn chính xác, nghiệm của phương pháp số không chính xác"
+                "correct_answer": "Kết quả nhận được khi giải theo phương pháp giải tích là tốn nhiều thời gian, theo phương pháp số là nhanh chóng"
             },
             {
                 "id": 5,
@@ -169,7 +169,7 @@
                     "Phương trình vector đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương và chứa đầy đủ các tham số khâu khớp",
                     "Phương trình vector đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương, qua một chân và chứa đầy đủ các tham số khâu, khớp"
                 ],
-                "correct_answer": "Phương trình vector đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương, qua một chân và chứa đầy đủ các tham số khâu, khớp"
+                "correct_answer": "Phương trình vector vòng kín, đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương và đi qua một chân"
             },
             {
                 "id": 15,
