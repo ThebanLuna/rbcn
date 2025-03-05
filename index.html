@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Robot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="quiz-container">
+        <h1>Bài Kiểm Tra Robot</h1>
+        <div id="question-container">
+            <h3 id="question-text"></h3>
+            <div id="answer-options"></div>
+        </div>
+        <button id="next-btn">Tiếp tục</button>
+    </div>
+    <script>
+       function askQuestion() {
+    let correct = false;
+
+    while (!correct) {
+        let answer = confirm("Ai đẹp trai nhất?\ntrả lời đúng thì được vào nhé cưng\n\nOK: Theban\nCancel: Không có ai");
+
+        if (answer) { // Người dùng chọn OK (tức là chọn "Theban")
+            alert("✅ Chính xác! Chào mừng bạn đến với trang web.");
+            correct = true;
+        } else { // Chọn Cancel (tức là chọn sai)
+            alert("❌ Trả lời sai! Hãy thử lại.");
+        }
+    }
+}
+
+// Gọi hàm ngay khi mở trang
+askQuestion();
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

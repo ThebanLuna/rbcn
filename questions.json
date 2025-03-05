@@ -1,0 +1,248 @@
+{
+    "quiz": {
+        "title": "Bài Kiểm Tra Robot",
+        "description": "Kiểm tra kiến thức về robot và động học.",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Ma trận cosin chỉ phương?",
+                "type": "multiple_choice",
+                "options": [
+                    "Ma trận chỉ phương của tay kẹp",
+                    "Ma trận chứa các hàm cosin",
+                    "Ma trận xác định hướng và vị trí của hệ trục toạ độ so với hệ trục toạ độ khác",
+                    "Ma trận xác định mối quan hệ về hướng giữa hai hệ trục toạ độ"
+                ],
+                "correct_answer": "Ma trận xác định mối quan hệ về hướng giữa hai hệ trục toạ độ"
+            },
+            {
+                "id": 2,
+                "question": "Bài toán động ngược?",
+                "type": "multiple_choice",
+                "options": [
+                    "Từ bảng thông số D-H cần xác định cơ cấu robot phù hợp",
+                    "Chuyển động của robot được xác định theo chiều ngược từ tay kẹp đến giá",
+                    "Vị trí và hướng của tay kẹp xác định khi biết các giá trị cụ thể của biến khớp",
+                    "Cần xác định giá trị của các biến khớp khi vị trí và hướng của tay kẹp đã cho"
+                ],
+                "correct_answer": "Cần xác định giá trị của các biến khớp khi vị trí và hướng của tay kẹp đã cho"
+            },
+            {
+                "id": 3,
+                "question": "Phép biến đổi Roll-pitch-yaw mô tả?",
+                "type": "multiple_choice",
+                "options": [
+                    "Quay một hệ quy chiếu liên tiếp 3 lần xung quanh các trục z,y,x của hệ quy chiếu theo thứ tự đó",
+                    "Quay một hệ quy chiếu liên tiếp 3 lần xung quanh các trục x,y,z của các hệ quy chiếu tức thời theo thứ tự đó",
+                    "Quay một hệ quy chiếu liên tiếp 3 lần xung quanh các trục x,y,z của hệ quy chiếu theo thứ tự đó",
+                    "Có nhiều bộ góc roll-pitch-yaw khác nhau"
+                ],
+                "correct_answer": "Quay một hệ quy chiếu liên tiếp 3 lần xung quanh các trục x,y,z của hệ quy chiếu theo thứ tự đó"
+            },
+            {
+                "id": 4,
+                "question": "Nhận định nào đúng khi nói về kết quả nhận được khi giải bài toán động học ngược theo phương pháp giải tích và phương pháp số?",
+                "type": "multiple_choice",
+                "options": [
+                    "Kết quả nhận được khi giải theo phương pháp giải tích là tốn nhiều thời gian, theo phương pháp số là nhanh chóng",
+                    "Phương pháp giải tích và phương pháp số dễ thực hiện",
+                    "Phương pháp giải tích khó giải, phương pháp số dễ thực hiện",
+                    "Nghiệm của phương trình giải tích hoàn toàn chính xác, nghiệm của phương pháp số không chính xác"
+                ],
+                "correct_answer": "Nghiệm của phương trình giải tích hoàn toàn chính xác, nghiệm của phương pháp số không chính xác"
+            },
+            {
+                "id": 5,
+                "question": "Robot cấu trúc chuỗi động học hở là?",
+                "type": "multiple_choice",
+                "options": [
+                    "Trong cấu trúc tồn tại ít nhất một vòng kín",
+                    "Trong cấu trúc chỉ có liên kết tạo bởi khớp bản lề hoặc khớp tịnh tiến",
+                    "Trong cấu trúc mỗi khâu bất kỳ đều liên kết với ít nhất hai khâu khác",
+                    "Trong cấu trúc mỗi khâu bất kỳ đều liên kết với nhiều nhất 2 khâu khác"
+                ],
+                "correct_answer": "Trong cấu trúc mỗi khâu bất kỳ đều liên kết với nhiều nhất 2 khâu khác"
+            },
+            {
+                "id": 6,
+                "question": "Với robot sáu bậc tự do cổ tay cầu, việc tăng chiều dài của khâu 4 sẽ?",
+                "type": "multiple_choice",
+                "options": [
+                    "Tăng thể tích làm việc",
+                    "Xảy ra hiện tượng a và b đồng thời",
+                    "Tăng khả năng định hướng góc trục Roll",
+                    "Không giữ được cấu trúc của cổ tay"
+                ],
+                "correct_answer": "Tăng thể tích làm việc"
+            },
+            {
+                "id": 7,
+                "question": "Tổ hợp ba khớp 4,5 và 6 của robot chuỗi 6DOF?",
+                "type": "multiple_choice",
+                "options": [
+                    "Các phương án đều không đúng",
+                    "Giữ vai trò định hướng khâu chấp hành khi các khớp quay có đường trục đồng quy và các trục đó đôi một vuông góc",
+                    "Giữ vai trò định hướng khâu chấp hành khi nó có đường trục đồng quy.",
+                    "Giữ vai trò định hướng và định vị khâu chấp hành khi là các khớp quay, có đường trục đồng quy bất kì góc giữa các trục đó"
+                ],
+                "correct_answer": "Giữ vai trò định hướng khâu chấp hành khi các khớp quay có đường trục đồng quy và các trục đó đôi một vuông góc"
+            },
+            {
+                "id": 8,
+                "question": "Mục đích của việc mô tả vị trí và hướng của một vật rắn đó trong không gian hệ toạ đồ Decac bằng ma trận thể 4x4?",
+                "type": "multiple_choice",
+                "options": [
+                    "Biểu diễn đồng thời vị trí và hướng của vật rắn đó trong không gian hệ toạ độ Đề Các",
+                    "Biểu diễn vị trí và hướng của vật rắn đó bằng hệ trục toạ độ địa phương",
+                    "Biểu diễn vị trí và hướng của vật rắn đó trong hệ trục toạ độ địa phương",
+                    "Ma trận thể 4x4 có khả năng biểu diễn phép tịnh tiến"
+                ],
+                "correct_answer": "Biểu diễn đồng thời vị trí và hướng của vật rắn đó trong không gian hệ toạ độ Đề Các"
+            },
+            {
+                "id": 9,
+                "question": "Robot có không gian làm việc lớn?",
+                "type": "multiple_choice",
+                "options": [
+                    "6UPS",
+                    "Robot song song",
+                    "Delta robot",
+                    "Robot chuỗi"
+                ],
+                "correct_answer": "Robot chuỗi"
+            },
+            {
+                "id": 10,
+                "question": "Khớp điều khiển được sử dụng trên robot song song là?",
+                "type": "multiple_choice",
+                "options": [
+                    "Khớp cardan hoặc khớp cầu",
+                    "Khớp thấp loại 5",
+                    "Tuỳ ý chọn",
+                    "Khớp liên kết giữa bệ cố định và chân"
+                ],
+                "correct_answer": "Khớp cardan hoặc khớp cầu"
+            },
+            {
+                "id": 11,
+                "question": "Từ “gripper” trong kĩ thuật có nghĩa là gì?",
+                "type": "multiple_choice",
+                "options": [
+                    "Khâu",
+                    "Tay kẹp",
+                    "Gắp vật",
+                    "Khớp"
+                ],
+                "correct_answer": "Tay kẹp"
+            },
+            {
+                "id": 12,
+                "question": "Trong hệ phương trình động học thuận có bao nhiêu phương trình là độc lập tuyến tính?",
+                "type": "multiple_choice",
+                "options": [
+                    "5 phương trình",
+                    "3 phương trình",
+                    "6 phương trình",
+                    "4 phương trình"
+                ],
+                "correct_answer": "6 phương trình"
+            },
+            {
+                "id": 13,
+                "question": "Bài toán động học ngược với bộ góc Roll-pitch-yaw có thể chuyển về?",
+                "type": "multiple_choice",
+                "options": [
+                    "Giải bài toán thuận với bộ góc Euler (x,y’,z”)",
+                    "Giải bài toán thuận với bộ góc Euler (x”,y’,z)",
+                    "Giải bài toán ngược với bộ góc Euler (z,y’,x”)",
+                    "Giải bài toán ngược với bộ góc Euler (x,y’,z”)"
+                ],
+                "correct_answer": "Giải bài toán ngược với bộ góc Euler (x,y’,z”)"
+            },
+            {
+                "id": 14,
+                "question": "Quy tắc mô hình hoá động học robot song song?",
+                "type": "multiple_choice",
+                "options": [
+                    "Phương trình vector vòng kín, đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương và đi qua một chân",
+                    "Chứa đầy đủ các tham số của từng khâu và khớp của một chân",
+                    "Phương trình vector đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương và chứa đầy đủ các tham số khâu khớp",
+                    "Phương trình vector đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương, qua một chân và chứa đầy đủ các tham số khâu, khớp"
+                ],
+                "correct_answer": "Phương trình vector đi qua tâm hệ toạ độ cơ sở, tâm hệ toạ độ địa phương, qua một chân và chứa đầy đủ các tham số khâu, khớp"
+            },
+            {
+                "id": 15,
+                "question": "Số ẩn số có trong hệ phương trình động học robot song song 6DOF?",
+                "type": "multiple_choice",
+                "options": [
+                    "12",
+                    "6",
+                    "18",
+                    "9"
+                ],
+                "correct_answer": "6"
+            },
+            {
+                "id": 16,
+                "question": "Phép biến đổi Euler có đặc điểm?",
+                "type": "multiple_choice",
+                "options": [
+                    "Là phép biến đổi thuần nhất.",
+                    "Có 12 bộ góc Euler khác nhau",
+                    "Ma trận đặc trưng là chuyển vị của ma trận đặc trưng khi biến đổi roll-pitch-yaw",
+                    "Có 9 bộ góc Euler khác nhau"
+                ],
+                "correct_answer": "Có 12 bộ góc Euler khác nhau"
+            },
+            {
+                "id": 17,
+                "question": "Hãy chọn phát biểu chính xác nhất trong số các phương án sau: \"Nếu quỹ đạo chuyển động trong không gian khớp là sự tổ hợp của đa thức bậc ba thì\"",
+                "type": "multiple_choice",
+                "options": [
+                    "Vận tốc tại tất cả các điểm trong không gian công tác đều như nhau",
+                    "Tất cả các phương án trên đều đúng",
+                    "Có thể đảm bảo vận tốc liên tục tại các điểm chuyển tiếp trong không gian khớp",
+                    "Có thể đảm bảo chuyển tiếp trơn cho đường cong gia tốc trong không gian khớp"
+                ],
+                "correct_answer": "Có thể đảm bảo vận tốc liên tục tại các điểm chuyển tiếp trong không gian khớp"
+            },
+            {
+                "id": 18,
+                "question": "Chiều quay dương trong hệ quy tắc bàn tay phải là?",
+                "type": "multiple_choice",
+                "options": [
+                    "Do người sử dụng tự quy định sao cho thuận tiện nhất",
+                    "Thuận kim đồng hồ trong mọi trường hợp",
+                    "Thuận chiều kim đồng hồ khi nhìn theo chiều tịnh tiến dương",
+                    "Ngược chiều kim đồng hồ khi nhìn theo chiều tịnh tiến dương"
+                ],
+                "correct_answer": "Thuận chiều kim đồng hồ khi nhìn theo chiều tịnh tiến dương"
+            },
+            {
+                "id": 19,
+                "question": "Robot công nghiệp phổ biến nhất là loại?",
+                "type": "multiple_choice",
+                "options": [
+                    "Robot delta",
+                    "Robot Kuka và Purma",
+                    "Robot chuỗi có 6 bậc tự do",
+                    "Robot song song có 3 bậc tự do"
+                ],
+                "correct_answer": "Robot chuỗi có 6 bậc tự do"
+            },
+            {
+                "id": 20,
+                "question": "Robot chuỗi có mức linh hoạt tốt nhất và phổ biến là robot có?",
+                "type": "multiple_choice",
+                "options": [
+                    "6DOF",
+                    "5 khớp quay và 1 khớp cầu",
+                    "3 khớp quay và 1 khớp cầu",
+                    "5DOF"
+                ],
+                "correct_answer": "6DOF"
+            }
+        ]
+    }
+}
