@@ -1,4 +1,26 @@
 body {
+    background-image: url('https://www.lavender.com.vn/wp-content/uploads/tao-dang-chup-anh-sexy-tren-giuong-nam-sap-11.webp'); /* Ảnh cho máy tính */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Nếu là điện thoại (màn hình nhỏ hơn 768px) */
+@media (max-width: 768px) {
+    body {
+        background-image: url('https://bevetranh.com/wp-content/uploads/2024/12/anh-gai-xinh-sexy-4.webp'); /* Ảnh cho điện thoại */
+        background-size: contain;  /* Hiển thị ảnh gốc mà không méo */
+        background-position: top left; /* Căn ảnh từ góc trên trái */
+        background-repeat: repeat-y; /* Lặp lại theo chiều dọc để phủ kín */
+        background-attachment: scroll; /* Cuộn theo trang */
+    }
+}
+
+
+body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
