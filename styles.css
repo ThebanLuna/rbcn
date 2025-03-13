@@ -8,6 +8,9 @@ body {
     margin: 0;
 }
 
+#question-text{
+    color:#ae2bc6e8;
+}
 /* Nếu là điện thoại (màn hình nhỏ hơn 768px) */
 @media (max-width: 768px) {
     body {
@@ -16,6 +19,9 @@ body {
         background-position: top left; /* Căn ảnh từ góc trên trái */
         background-repeat: repeat-y; /* Lặp lại theo chiều dọc để phủ kín */
         background-attachment: scroll; /* Cuộn theo trang */
+    }
+     #question-text {
+        color: #3ff27e;
     }
 }
 
